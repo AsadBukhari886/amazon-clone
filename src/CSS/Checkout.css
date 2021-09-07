@@ -1,0 +1,27 @@
+.checkout {
+    display: flex;
+    width: 100%;
+}
+
+.checkout__left {
+    width: 100%;
+    overflow: hidden;
+}
+
+.checkout__full {
+    width: 100%;
+    overflow: hidden;
+}
+
+.checkout__right {
+    /* width: 20%; */
+    /* padding: 10px; */
+    margin: 10px;
+}
+
+.checkout_ad {
+    width: 100%;
+    margin-bottom: 10px;
+    /* padding: 0%; */
+    height: 200px;
+}
