@@ -6,7 +6,7 @@ import Home from './components/Home';
 import Checkout from './components/Checkout';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import '../node_modules/bootstrap/dist/js/bootstrap.bundle.js';
-import firebase from 'firebase/app';
+import firebase from 'firebase/compat/app';
 import Login from './components/Login';
 
 // Initialize Firebase
@@ -43,9 +43,7 @@ function App() {
         <Route path="/khansir">
           <h1>this is khansir</h1>
         </Route>
-        <Route exact path="/" >
-          <p>mera lal</p>
-        </Route>
+
       </Switch>
     </div>
   );

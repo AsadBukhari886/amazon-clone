@@ -2,9 +2,7 @@
     display: flex;
     height: auto;
     background-color: rgb(250, 229, 137);
-    
     margin: 10px;
-  
     width: 100%;
 }
 
@@ -18,7 +16,7 @@
     align-items: center;
     padding: 20px;
     background-color: aliceblue;
-margin: 2px ;
+    margin: 2px;
 }
 
 .product__image {

@@ -1,7 +1,8 @@
 .product {
     display: flex;
     flex-direction: column;
-    max-height: 400px;
+    /* max-height: 400px; */
+    
     min-width: 100px;
     padding: 20px;
     margin: 8px;
@@ -28,7 +29,8 @@
 }
 
 .product__info {
-    height: 100px;
+    /* height: 100px; */
+    height: auto;
     margin-bottom: 15px;
 }
 

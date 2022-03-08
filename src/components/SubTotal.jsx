@@ -24,7 +24,7 @@ function SubTotal() {
                     prefix={'$'}
                 />
 
-                <button>check to proceed</button>
+                <button>check_to_proceed</button>
             </div>
         </div>
     )
